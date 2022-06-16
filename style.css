@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(rgb(243, 243, 139), rgb(233, 174, 65), rgb(243, 247, 22));
+    font-family: 'Fredoka', sans-serif;
+    font-size: 24px;
+      
+}
+
+header{
+    width: 800px;
+    height: 200px;
+    padding: 50px 500px 90px 500px;  
+}
+
+
+main{
+    width: 1000px;
+    height: 900px;    
+    margin-top: 30px;
+}
+
+.proyectos{
+    width: 1000px;
+    height: auto;
+    margin-left: 400px;
+    
+    clear: right;           
+}
+
+.proyectos h1{
+    width: 300px;
+    height: auto;    
+}
+
+.proyectos li{
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    vertical-align: top;
+    box-sizing: border-box;
+
+    /* bordes de las tarjetas*/
+    border-color: #424040;
+    border-width: 4px;
+    border-style: solid;
+
+    border-radius: 10px;
+
+    transition: 1s all;
+}
+    
+.proyectos li:hover{
+    background:rgb(224, 182, 104);
+    transform: scale(1.1) rotate(1.2deg);
+}
+
+.imagen-proyecto{
+    border-radius: 20px;
+}
+
+footer{
+    width: auto;
+    height: 150px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.formulario{
+    width: 450px;
+    height: auto;
+    margin-top: 140px;
+    margin-left: 500px;   
+}
